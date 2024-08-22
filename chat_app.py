@@ -57,14 +57,6 @@ if 'uploaded_files' not in st.session_state:
     st.session_state.uploaded_files = []
 
 
-st.session_state.openai_type="azure_openai"
-st.session_state.api_key="576b185ff87d4f50962560d349d06332"
-st.session_state.endpoint="https://securityappdewa.openai.azure.com"
-st.session_state.version="2023-07-01-preview"
-st.session_state.model_name="gpt-35-turbo-16k"
-st.session_state.embedding_model_name="text-embedding-002"
-
-
 # Function to display the modal
 def display_modal():
     with st.expander("Please enter your Model Details:", expanded=False):
